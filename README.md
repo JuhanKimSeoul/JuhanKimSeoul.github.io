@@ -1,1 +1,1 @@
-# juhan.github.io
+# JuhanKimSeoul.github.io
