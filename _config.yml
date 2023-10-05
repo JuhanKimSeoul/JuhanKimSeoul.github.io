@@ -27,7 +27,7 @@ repository               : "https://github.com/JuhanKimSeoul/JuhanKimSeoul.githu
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : "/assets/images/s_logo.png" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : "Developer Juhan" 
-# breadcrumbs            : false # true, false (default)
+breadcrumbs              : true #false (default)
 words_per_minute         : 200
 comments:
   provider               : # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
@@ -59,7 +59,7 @@ reCaptcha:
 atom_feed:
   path                   : # blank (default) uses feed.xml
   hide                   : # true, false (default)
-search                   : # true, false (default)
+search                   : true
 search_full_content      : # true, false (default)
 search_provider          : # lunr (default), algolia, google
 lunr:
@@ -119,6 +119,9 @@ author:
     - label: "LinkedIn"
       icon: "fab fa-linkedin"
       url: "https://www.linkedin.com/in/주한-김-869355287"
+    - label: "Velog"
+      icon: "fas fa-cubes"
+      url: "https://velog.io/@mangojuhan"
 
 # Site Footer
 footer:
@@ -132,6 +135,9 @@ footer:
     - label: "LinkedIn"
       icon: "fab fa-linkedin"
       url: "https://www.linkedin.com/in/주한-김-869355287"
+    - label: "Velog"
+      icon: "fas fa-cubes"
+      url: "https://velog.io/@mangojuhan"
 
 # Reading Files
 include:
@@ -268,9 +274,10 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: # true
+      comments: true
       share: true
       related: true
+      show_date: true
 
   - scope:
       path: "_pages"
